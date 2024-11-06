@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+</head>
+<body>
+    <h1>Inventory Management System</h1>
+
+    <label for="productId">Product ID:</label>
+    <input type="text" id="productId" placeholder="Enter product ID">
+    <button onclick="getProduct()">Get Product</button>
+    <button onclick="deleteProduct()">Delete Product</button>
+
+    <br><br>
+
+    <label for="productData">Product Data (JSON format):</label>
+    <textarea id="productData" rows="4" cols="50" placeholder='{"name": "Sample Product", "price": 10.0}'></textarea>
+    <button onclick="addProduct()">Add Product</button>
+    <button onclick="updateProduct()">Update Product</button>
+
+    <script src="renderer.js"></script>
+</body>
+</html>

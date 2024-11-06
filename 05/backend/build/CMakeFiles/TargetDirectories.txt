@@ -1,0 +1,2 @@
+/home/home/Documents/05/backend/build/CMakeFiles/edit_cache.dir
+/home/home/Documents/05/backend/build/CMakeFiles/rebuild_cache.dir
